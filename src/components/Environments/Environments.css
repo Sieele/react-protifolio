@@ -1,0 +1,96 @@
+.card,
+.card-back{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    background: #3d3072;
+    border: 1.5px solid #6751b9;
+    margin: 50px auto;
+    font-size: 2rem;
+}
+
+.env-card{
+    display: flex;
+    margin: 50px auto;
+    gap: 3rem;
+}
+
+.env-icon{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2a2252;
+    border-radius: 0.65rem;
+    border: 1.5px solid #6852ba;
+    position: absolute;
+    top: -1rem;
+    left: 30rem;
+}
+
+.env-icon img{
+    width: 3rem;
+    height: auto;
+}
+
+.env-icon img:hover{
+    transform: translateY(-0.5rem);
+}
+
+@media (mas-width: 1025px){
+    .card {
+        padding: 2rem;
+    }
+
+    .card span {
+        font-size: 1rem;
+    }
+
+    .env-icon {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .env-icon img {
+        width: 1.8rem;
+    }
+}
+
+@media (max-width: 768px){
+    .card {
+        width: 250px;
+        height: 350px;
+    }
+
+    .env-icon {
+        width: 4rem;
+        height: 4rem;
+        left: 13rem;
+    }
+
+    .card span{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 450px){
+    .card {
+        width: 200px;
+        height: 300px;
+    }
+
+    .env-icon {
+        width: 3rem;
+        height: 3em;
+        left: 4.5rem;
+    }
+
+    .env-icon img {
+        width: 2rem;
+    }
+}
+

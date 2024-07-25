@@ -44,3 +44,23 @@ export const WORK_EXPERIENCE = [
         ]
     }
 ]
+
+
+export const ENVIRONMENTS = [
+    {
+        title: "VSCode",
+        icon: "./assets/images/vscode.png"
+    },
+    {
+        title: "Sublime Text",
+        icon: "./assets/images/sublime.png"
+    },
+    {
+        title: "WebStorm",
+        icon: "./assets/images/webstorm.png"
+    },
+    {
+        title: "Atom",
+        icon: "./assets/images/atom.png"
+    }
+]

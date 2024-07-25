@@ -6,6 +6,7 @@ import Skills from './components/Skills/Skills'
 import WorkExperience from './components/WorkExperience/WorkExperience'
 import ContactMe from './components/ContactMe/ContactMe'
 import Footer from './components/Footer/Footer'
+import Environments from './components/Environments/Environments'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <div className="container">
         <Hero/>
         <Skills />
+        <Environments />
         <WorkExperience />
         <ContactMe />
       </div>
